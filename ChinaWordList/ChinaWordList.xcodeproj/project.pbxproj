@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A82D855A2625B50800F6DA14 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82D85592625B50800F6DA14 /* TestView.swift */; };
+		A850624826045B4E0060E53A /* ChinaWordListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A850624726045B4E0060E53A /* ChinaWordListApp.swift */; };
+		A850624A26045B4E0060E53A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A850624926045B4E0060E53A /* ContentView.swift */; };
+		A850624C26045B4F0060E53A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A850624B26045B4F0060E53A /* Assets.xcassets */; };
+		A850624F26045B4F0060E53A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A850624E26045B4F0060E53A /* Preview Assets.xcassets */; };
+		A87B49482614731200B32BAF /* TestAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87B49472614731200B32BAF /* TestAView.swift */; };
+		A87B4989261A2EEF00B32BAF /* VerbListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87B4988261A2EEF00B32BAF /* VerbListView.swift */; };
+		A87B4998261A341300B32BAF /* WordData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87B4997261A341300B32BAF /* WordData.swift */; };
+		A87B49C826230CC700B32BAF /* VerbTestTypeA.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87B49C726230CC700B32BAF /* VerbTestTypeA.swift */; };
+		A87B49CE262343A500B32BAF /* RandomPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87B49CD262343A500B32BAF /* RandomPoint.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A82D85592625B50800F6DA14 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		A850624426045B4E0060E53A /* ChinaWordList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChinaWordList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A850624726045B4E0060E53A /* ChinaWordListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChinaWordListApp.swift; sourceTree = "<group>"; };
+		A850624926045B4E0060E53A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A850624B26045B4F0060E53A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A850624E26045B4F0060E53A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A850625026045B4F0060E53A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A87B49472614731200B32BAF /* TestAView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAView.swift; sourceTree = "<group>"; };
+		A87B4988261A2EEF00B32BAF /* VerbListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerbListView.swift; sourceTree = "<group>"; };
+		A87B4997261A341300B32BAF /* WordData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordData.swift; sourceTree = "<group>"; };
+		A87B49C726230CC700B32BAF /* VerbTestTypeA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerbTestTypeA.swift; sourceTree = "<group>"; };
+		A87B49CD262343A500B32BAF /* RandomPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomPoint.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A850624126045B4E0060E53A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A82D85582625B4AB00F6DA14 /* grade3 */ = {
+			isa = PBXGroup;
+			children = (
+				A87B49472614731200B32BAF /* TestAView.swift */,
+			);
+			path = grade3;
+			sourceTree = "<group>";
+		};
+		A850623B26045B4E0060E53A = {
+			isa = PBXGroup;
+			children = (
+				A850624626045B4E0060E53A /* ChinaWordList */,
+				A850624526045B4E0060E53A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A850624526045B4E0060E53A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A850624426045B4E0060E53A /* ChinaWordList.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A850624626045B4E0060E53A /* ChinaWordList */ = {
+			isa = PBXGroup;
+			children = (
+				A850624726045B4E0060E53A /* ChinaWordListApp.swift */,
+				A87B4997261A341300B32BAF /* WordData.swift */,
+				A87B49CD262343A500B32BAF /* RandomPoint.swift */,
+				A82D85582625B4AB00F6DA14 /* grade3 */,
+				A87B49412613366800B32BAF /* ListView */,
+				A87B493B2613359400B32BAF /* TestView */,
+				A850624B26045B4F0060E53A /* Assets.xcassets */,
+				A850625026045B4F0060E53A /* Info.plist */,
+				A850624D26045B4F0060E53A /* Preview Content */,
+			);
+			path = ChinaWordList;
+			sourceTree = "<group>";
+		};
+		A850624D26045B4F0060E53A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A850624E26045B4F0060E53A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A87B493B2613359400B32BAF /* TestView */ = {
+			isa = PBXGroup;
+			children = (
+				A850624926045B4E0060E53A /* ContentView.swift */,
+				A87B49C726230CC700B32BAF /* VerbTestTypeA.swift */,
+				A82D85592625B50800F6DA14 /* TestView.swift */,
+			);
+			path = TestView;
+			sourceTree = "<group>";
+		};
+		A87B49412613366800B32BAF /* ListView */ = {
+			isa = PBXGroup;
+			children = (
+				A87B4988261A2EEF00B32BAF /* VerbListView.swift */,
+			);
+			path = ListView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A850624326045B4E0060E53A /* ChinaWordList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A850625326045B4F0060E53A /* Build configuration list for PBXNativeTarget "ChinaWordList" */;
+			buildPhases = (
+				A850624026045B4E0060E53A /* Sources */,
+				A850624126045B4E0060E53A /* Frameworks */,
+				A850624226045B4E0060E53A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChinaWordList;
+			productName = ChinaWordList;
+			productReference = A850624426045B4E0060E53A /* ChinaWordList.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A850623C26045B4E0060E53A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					A850624326045B4E0060E53A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = A850623F26045B4E0060E53A /* Build configuration list for PBXProject "ChinaWordList" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A850623B26045B4E0060E53A;
+			productRefGroup = A850624526045B4E0060E53A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A850624326045B4E0060E53A /* ChinaWordList */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A850624226045B4E0060E53A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A850624F26045B4F0060E53A /* Preview Assets.xcassets in Resources */,
+				A850624C26045B4F0060E53A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A850624026045B4E0060E53A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A82D855A2625B50800F6DA14 /* TestView.swift in Sources */,
+				A850624A26045B4E0060E53A /* ContentView.swift in Sources */,
+				A87B49C826230CC700B32BAF /* VerbTestTypeA.swift in Sources */,
+				A87B49482614731200B32BAF /* TestAView.swift in Sources */,
+				A87B49CE262343A500B32BAF /* RandomPoint.swift in Sources */,
+				A87B4989261A2EEF00B32BAF /* VerbListView.swift in Sources */,
+				A850624826045B4E0060E53A /* ChinaWordListApp.swift in Sources */,
+				A87B4998261A341300B32BAF /* WordData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A850625126045B4F0060E53A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A850625226045B4F0060E53A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A850625426045B4F0060E53A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ChinaWordList/Preview Content\"";
+				DEVELOPMENT_TEAM = Y6MJ47HZC7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ChinaWordList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shotaiwata.ChinaWordList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A850625526045B4F0060E53A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ChinaWordList/Preview Content\"";
+				DEVELOPMENT_TEAM = Y6MJ47HZC7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ChinaWordList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shotaiwata.ChinaWordList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A850623F26045B4E0060E53A /* Build configuration list for PBXProject "ChinaWordList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A850625126045B4F0060E53A /* Debug */,
+				A850625226045B4F0060E53A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A850625326045B4F0060E53A /* Build configuration list for PBXNativeTarget "ChinaWordList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A850625426045B4F0060E53A /* Debug */,
+				A850625526045B4F0060E53A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A850623C26045B4E0060E53A /* Project object */;
+}
